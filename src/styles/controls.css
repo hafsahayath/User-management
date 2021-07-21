@@ -1,0 +1,30 @@
+.control-container{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.control-container .btn-item-green {
+    margin: 5px;
+    border: transparent;
+    background-color: #3bad56;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.control-container .btn-item-red {
+    margin: 5px;
+    border: transparent;
+    background-color: lightcoral;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
