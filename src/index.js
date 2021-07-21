@@ -8,7 +8,7 @@ import './index.css'
 const store = configStore()
 
 store.subscribe(()=>{
-    console.log(store.getState())
+    console.log('state update', store.getState())
 })
 
 ReactDOM.render(
