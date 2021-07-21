@@ -24,9 +24,14 @@ const Form = (props) => {
             name: name,
             status: status
         }
-        dispatch(addUser(formData))
-        setName('')
-        setStatus(false)
+        if(formData.name){
+            dispatch(addUser(formData))
+            setName('')
+            setStatus(false)
+        } else {
+            alert('name field cannot be empty')
+            setStatus(false)
+        }
     }
 
     return (
